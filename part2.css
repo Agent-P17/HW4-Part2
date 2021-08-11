@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body
+    {
+        font-family: cursive;
+        color: royalblue;
+        font-size: larger;
+        
+    }
+h3
+    {
+        text-align: center;
+        padding: 60px;
+        font-weight: bolder;
+        font-size: xx-large;
+        background-color: deepskyblue;
+        color: black;
+    }
+button
+    {
+        background-color: limegreen;
+        color:black;
+        font-size: larger;
+    }
+
+#table 
+    {
+        overflow-x: scroll;
+        margin: auto;
+        margin-top: 10px;
+    }
+.th 
+    {
+        width: 20px;
+        height: 20px;
+        background-color: cyan;
+        color: darkgreen;
+    }
+td
+    {
+        width: 20px;
+        height: 20px;
+        background-color:darkgreen;
+        color: cyan;
+        cursor: pointer;
+    }
+
+.error
+    {
+        color: red;
+        font-size: small;
+        margin-top: 5px;
+    }
+
+/* All The new code for tabs and uislider */
+
+form
+    {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: flex-start;
+        border: 1px solid;
+        margin: 0 10px;
+        padding: 10px 10px;
+        background-color: aquamarine;
+    }      
+.ui-slider 
+    {
+        margin-top: 1em;   
+    }
+#num1_Slider,#num2_Slider,#num3_Slider,#num4_Slider
+{
+    
+    height: 1em;
+    border: none;
+}
+#num1_Slider,
+#num2_Slider,
+#num3_Slider,
+#num4_Slider
+{
+  width: 100%;
+  border: 18px solid #fff;
+  height: 18px;
+  width: 18px;
+  border-radius: 100px;
+  background: #3f8de7;
+}
+
+#num1_Slider,
+#num2_Slider,
+#num3_Slider,
+#num4_Slider
+ {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #f31212;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  #num1_Slider:hover ,
+  #num2_Slider:hover ,
+  #num3_Slider:hover ,
+  #num4_Slider:hover 
+  {
+    opacity: 1;
+  }
+  
+  #num4_Slider::-webkit-slider-thumb 
+  {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #f50606;
+    cursor: pointer;
+  }
+  #tabs
+    {
+        margin-top: 1em;
+    }
